@@ -9,7 +9,6 @@
 Halo, ini merupakan repositori untuk mata kuliah Komputasi Paralel 2022. Beberapa konten yang akan ada seperti Catatan Perkuliahan, Tugas, Kuis, dan banyak hal lainnya. 
 
 # Daftar Isi
-## Catatan
 | **Minggu ke-** | **Nama Materi**               | **Tautan** | **Ket** |
 |----------------|-------------------------------|------------|---------|
 | Satu           | Fundamental Komputasi Paralel | xxxxx      |         |
