@@ -1,10 +1,17 @@
-# Kontribusi Pertama
+# Deskripsi Singkat
+Halo, ini merupakan repositori untuk mata kuliah Komputasi Paralel 2022. Beberapa konten yang akan ada seperti Catatan Perkuliahan, Tugas, Kuis, dan banyak hal lainnya. 
 
-Sulit. Selalu sulit saat pertama kali Anda melakukan sesuatu. Terutama ketika Anda berkolaborasi, membuat kesalahan bukanlah hal yang nyaman. Kami ingin menyederhanakan cara kontributor *open-source* baru belajar dan berkontribusi untuk pertama kalinya.
+# Tim
+**Kelompok Intel - Komputasi Paralel 2022**
+- 120450024, M. Alfin Delvan Joeyantu
+- 120450034, M. Zaky Mahdavikia Zein
+- 120450034, Muhammad Dafha Syahrizal
+- 120450081, Dimas Wahyu Saputro
 
-Membaca artikel dan menonton tutorial dapat membantu, tetapi apa yang lebih baik daripada langsung mempraktikan hal-hal tersebut? Proyek ini bertujuan untuk memberikan panduan dan menyederhanakan cara memberikan kontribusi pertama bagi pemula. Jika Anda ingin memberikan kontribusi untuk pertama kalinya, ikuti langkah-langkah di bawah ini.
+# Cara untuk Kontribusi
+## Kontribusi Pertama
 
-#### _Jika Anda tidak nyaman dengan baris perintah, [di sini ada tutorial menggunakan GUI.](#Tutorial-Menggunakan-Alat-Lain)_
+Sulit. Selalu sulit saat pertama kali Anda melakukan sesuatu. Terutama ketika Anda berkolaborasi, membuat kesalahan bukanlah hal yang nyaman. Membaca artikel dan menonton tutorial dapat membantu, tetapi apa yang lebih baik daripada langsung mempraktikan hal-hal tersebut? Jika Anda ingin memberikan kontribusi untuk pertama kalinya, ikuti langkah-langkah di bawah ini.
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
@@ -34,7 +41,7 @@ yang mana "url yang telah Anda salin" (tanpa tanda petik) adalah url ke reposito
 Contoh:
 
 ```
-git clone https://github.com/username-anda/first-contributions.git
+git clone https://github.com/username-anda/parallel-computing
 ```
 
 `username-anda` adalah *username* Github Anda. Pada langkah ini, Anda menyalin konten dari repositori first-contributions di GitHub ke komputer anda.
@@ -44,7 +51,7 @@ git clone https://github.com/username-anda/first-contributions.git
 Pindah ke direktori repositori Anda yang baru saja disalin (jika belum ada di sana):
 
 ```
-cd first-contributions
+cd parallel-computing
 ```
 
 Buat cabang dengan perintah `git checkout`:
@@ -56,14 +63,14 @@ git checkout -b <add-nama-cabang-baru>
 Contoh:
 
 ```
-git checkout -b add-alonzo-church
+git checkout -b add-dimas-new
 ```
 
 (Nama cabang tidak perlu mengandung kata _add_ namun layak untuk ditambahkan karena tujuan dari cabang ini adalah menambahkan nama Anda ke dalam sebuah daftar.)
 
 ## Buat Perubahan yang Diperlukan Lalu Commit Perubahan Tersebut
 
-Buka berkas `Contributors.md` menggunakan teks editor, tambahkan nama Anda ke dalamnya lalu simpan berkas tersebut. Apabila Anda masuk ke direktori dan mengeksekusi perintah `git status` maka Anda dapat melihat bahwa telah ada perubahan. Tambahkan perubahan tersebut ke dalam cabang yang sebelumnya telah dibuat menggunakan perintah `git add`:
+Buat dan kerjakan bagian tugas anda. Apabila Anda masuk ke direktori dan mengeksekusi perintah `git status` maka Anda dapat melihat bahwa telah ada perubahan. Tambahkan perubahan tersebut ke dalam cabang yang sebelumnya telah dibuat menggunakan perintah `git add`:
 
 ```
 git add Contributors.md
@@ -102,18 +109,3 @@ Segera Saya (pengelola) akan menggabungkan semua perubahan Anda ke cabang utama 
 ## Ke Mana Lagi Setelah dari Sini?
 
 Selamat! Anda baru saja menyelesaikan *fork* -> *clone* -> ubah -> *Pull Request* sebuah alur kerja yang akan sering Anda temui sebagai kontributor!
-
-Mari rayakan kontribusi Anda dan bagikan pengalaman tersebut bersama teman-teman dengan pergi ke [web app](https://roshanjossey.github.io/first-contributions/#social-share).
-
-Anda dapat bergabung dengan tim slack kami jika membutuhkan bantuan atau memiliki pertanyaan. [Bergabung dengan tim slack](https://join.slack.com/t/firstcontributors/shared_invite/enQtMzE1MTYwNzI3ODQ0LTZiMDA2OGI2NTYyNjM1MTFiNTc4YTRhZTg4OWZjMzA0ZWZmY2UxYzVkMzI1ZmVmOWI4ODdkZWQwNTM2NDVmNjY).
-
-Sekarang, mari mulai berkontribusi di proyek lain. Kami sudah mengumpulkan daftar proyek dengan isu yang mudah dikerjakan sehingga Anda dapat segera memulai. Cek di [daftar proyek web app](https://roshanjossey.github.io/first-contributions/#project-list).
-
-## [ Materi tambahan ](../additional-material/git_workflow_scenarios/additional-material.md)
-
-## Tutorial Menggunakan Alat Lain
-
-
-| <a href="../gui-tool-tutorials/github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Visual_Studio_2017_Logo.svg" width="100"></a> | <a href="../gui-tool-tutorials/gitkraken-tutorial.md"><img alt="GitKraken" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/gk-icon.png" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs-code-tutorial.md"><img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Visual_Studio_Code_1.18_icon.svg" width=100></a> |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [GitHub Desktop](../gui-tool-tutorials/github-desktop-tutorial.md)                                                                                             | [Visual Studio 2017](../gui-tool-tutorials/github-windows-vs2017-tutorial.md)                                                                                                                          | [GitKraken](../gui-tool-tutorials/gitkraken-tutorial.md)                                                              | [Visual Studio Code](../gui-tool-tutorials/github-windows-vs-code-tutorial.md)                                                                                                                  |
