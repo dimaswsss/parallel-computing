@@ -15,6 +15,12 @@ Halo, ini merupakan repositori untuk mata kuliah Komputasi Paralel 2022. Beberap
 | Dua            |                               |            |         |
 | Tiga           |                               |            |         |
 | Empat          |                               |            |         |
+| Lima           |                               |            |         |
+| Enam           |                               |            |         |
+| Tujuh          | Kuis                          |            |         |
+| Delapan        | UTS                           |            |         |
+| Sembilan       | GPU Programming               |[di sini](./Catatan%20Perkuliahan/Minggu%209/Presentasi%20Kelompok%20Intel.pdf)|         |
+|                |                               |            |         |
 |                |                               |            |         |
 
 # Cara untuk Kontribusi
